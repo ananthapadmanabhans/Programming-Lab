@@ -1,0 +1,8 @@
+qw=open("lop.txt","r")
+str1=qw.read()
+er=open("pol.txt","a")
+er.write(str1)
+er.close()
+ty=open("pol.txt","r")
+a=ty.read()
+print(a)
